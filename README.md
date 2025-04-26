@@ -34,7 +34,7 @@ pip install -r requirements.txt
 This release includes both source code and an installer. 
 Source files are fully editable for future customizations.
 
-## 📜 License
-Released under [MIT License](LICENSE) (Add if you want!)
+⚠️ Note: When running the installer, Windows Defender SmartScreen may warn about "Unknown Publisher."
+This is normal for newly published indie applications. Click "More Info" → "Run Anyway" to proceed safely.
 
 Glory to Nurgle, may your lore ever rot!
