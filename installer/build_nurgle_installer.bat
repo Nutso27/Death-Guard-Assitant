@@ -1,0 +1,6 @@
+@echo off
+echo Building DeathGuard Assistant with PyInstaller...
+pyinstaller --onefile --windowed --icon=death_guard.ico boot_splash.py
+echo Now launching NSIS to create installer...
+"C:\Program Files (x86)\NSIS\makensis.exe" nurgle_installer.iss
+pause

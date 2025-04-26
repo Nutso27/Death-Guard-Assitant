@@ -1,0 +1,9 @@
+@echo off
+echo Creating clean venv with Python 3.12...
+py -3.12 -m venv venv
+call venv\Scripts\activate
+echo Upgrading pip...
+python -m pip install --upgrade pip setuptools
+echo Installing requirements...
+pip install -r requirements.txt
+echo Setup complete.
